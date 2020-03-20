@@ -1,0 +1,345 @@
+.newsplashpage .spacing {
+  padding-top: 30rem;
+}
+
+.newsplashpage .part1 .firstsection .heading1 {
+  text-align: center;
+}
+
+.newsplashpage .part1 .firstsection .heading1 h1 {
+  position: relative;
+  color: #009688;
+  font-size: 3rem;
+  font-family: "Capriola", "Roboto", Arial, sans-serif;
+  z-index: 1;
+}
+
+.newsplashpage .part1 .firstsection .subheading1 {
+  text-align: center;
+}
+
+.newsplashpage .part1 .firstsection .subheading1 p {
+  position: relative;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Capriola", "Roboto", Arial, sans-serif;
+  z-index: 1;
+}
+
+.newsplashpage .part1 .firstsection .headingBtn {
+  text-align: center;
+}
+
+.newsplashpage .part1 .firstsection .headingBtn button {
+  text-transform: capitalize;
+  text-decoration: none;
+  border: none;
+  font-size: 1.2rem;
+  padding: 12px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: #2f2e41;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+}
+
+.newsplashpage .part1 .firstsection .headingBtn button:hover {
+  background-color: white;
+  color: #2f2e41;
+  border: 2px solid #2f2e2f;
+}
+
+.newsplashpage .part1 .firstsection .banner1 {
+  position: absolute;
+  top: 10rem;
+  left: 14rem;
+  height: 100vh;
+}
+
+.newsplashpage .part2 .numberedCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 30rem;
+}
+
+.newsplashpage .part2 .numberedCard .card1,
+.newsplashpage .part2 .numberedCard .card2,
+.newsplashpage .part2 .numberedCard .card3 {
+  padding: 40px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.newsplashpage .part2 .numberedCard .card1 .container .testimonial_wrapper .single_testimonial_wrapper p,
+.newsplashpage .part2 .numberedCard .card2 .container .testimonial_wrapper .single_testimonial_wrapper p,
+.newsplashpage .part2 .numberedCard .card3 .container .testimonial_wrapper .single_testimonial_wrapper p {
+  width: 120%;
+  font-size: 25px;
+  text-align: center;
+  color: #2f2e41;
+}
+
+.newsplashpage .part2 .numberedCard .card1 .container .testimonial_wrapper .single_testimonial_wrapper p span,
+.newsplashpage .part2 .numberedCard .card2 .container .testimonial_wrapper .single_testimonial_wrapper p span,
+.newsplashpage .part2 .numberedCard .card3 .container .testimonial_wrapper .single_testimonial_wrapper p span {
+  font-size: 35px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #009688;
+}
+
+.newsplashpage .part2 .numberedCard .testimonial_wrapper {
+  margin-top: 90px;
+}
+
+.newsplashpage .part2 .numberedCard .single_testimonial_wrapper {
+  display: inline-block;
+}
+
+.newsplashpage .part2 .numberedCard .single_testimonial {
+  width: 250px;
+  height: 450px;
+  z-index: 2;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+}
+
+.newsplashpage .part2 .numberedCard .single_testimonial p {
+  text-align: left;
+  position: absolute;
+  bottom: 19px;
+  font-size: 18px;
+  font-family: "Raleway";
+  color: #286090;
+  z-index: 7;
+  padding: 24px;
+}
+
+.newsplashpage .part2 .numberedCard .single_testimonial h3 {
+  z-index: 4;
+  position: relative;
+  top: 54px;
+  text-align: left;
+  font-size: 46px;
+  color: white;
+  padding-left: 23px;
+}
+
+.newsplashpage .part2 .numberedCard .single_testimonial small {
+  position: absolute;
+  bottom: -19px;
+  right: 22px;
+}
+
+.newsplashpage .part2 .numberedCard .square {
+  width: 65px;
+  height: 32px;
+  background: #ab003c;
+  position: absolute;
+  left: -25px;
+  top: 124px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  z-index: 1;
+}
+
+.newsplashpage .part2 .numberedCard .parent_square {
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  left: -27px;
+  top: 48px;
+  z-index: 3;
+}
+
+.newsplashpage .part2 .numberedCard .child_sqaure {
+  width: 56px;
+  height: 57px;
+  background: #ab003c;
+  position: absolute;
+  left: 95px;
+  top: 60px;
+  z-index: 4;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.newsplashpage .part2 .numberedCard .tilt-shadow {
+  position: absolute;
+  -webkit-box-shadow: 0 25px 75px -17px rgba(0, 0, 0, 0.75);
+          box-shadow: 0 25px 75px -17px rgba(0, 0, 0, 0.75);
+  background: white;
+  height: 450px;
+  width: 350px;
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+  z-index: 3;
+  -webkit-box-shadow: -7px 4px 17px #333333ab;
+          box-shadow: -7px 4px 17px #333333ab;
+  cursor: pointer;
+}
+
+.newsplashpage .part3 .banner2 {
+  height: 100vh;
+  position: relative;
+  top: 0rem;
+  left: 25em;
+}
+
+.newsplashpage .part3 .heading2 h1 {
+  position: absolute;
+  top: 210%;
+  left: 5rem;
+  color: #613556;
+  font-size: 3rem;
+  font-family: "Capriola", "Roboto", Arial, sans-serif;
+  z-index: 1;
+  text-transform: capitalize;
+}
+
+.newsplashpage .part3 .subheading2 p {
+  position: absolute;
+  left: 5rem;
+  top: 220%;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Capriola", "Roboto", Arial, sans-serif;
+  z-index: 1;
+}
+
+.newsplashpage .part3 .headingBtn2 button {
+  text-transform: capitalize;
+  text-decoration: none;
+  border: none;
+  font-size: 1.2rem;
+  padding: 12px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: #62d1ff;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 240%;
+  left: 5rem;
+}
+
+.newsplashpage .part3 .headingBtn2 button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #62d1ff;
+}
+
+.newsplashpage .part4 .banner3 {
+  height: 80vh;
+  position: relative;
+  padding-top: 25vh;
+}
+
+.newsplashpage .part4 .heading3 h1 {
+  position: absolute;
+  top: 430%;
+  left: 5rem;
+  color: #094142;
+  font-size: 3rem;
+  font-family: "Capriola", "Roboto", Arial, sans-serif;
+  z-index: 1;
+  text-transform: capitalize;
+}
+
+.newsplashpage .part4 .subheading3 p {
+  position: absolute;
+  left: 5rem;
+  top: 440%;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Capriola", "Roboto", Arial, sans-serif;
+  z-index: 1;
+  text-align: left;
+}
+
+.newsplashpage .part4 .headingBtn3 button {
+  text-transform: capitalize;
+  text-decoration: none;
+  border: none;
+  font-size: 1.2rem;
+  padding: 12px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: #d68453;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 460%;
+  left: 5rem;
+}
+
+.newsplashpage .part4 .headingBtn3 button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #d68453;
+}
+
+.newsplashpage .part5 .banner4 {
+  height: 100vh;
+  position: relative;
+  left: 51.5em;
+}
+
+.newsplashpage .part5 .heading4 h1 {
+  position: absolute;
+  top: 300%;
+  right: 5rem;
+  color: #613556;
+  font-size: 3rem;
+  font-family: "Capriola", "Roboto", Arial, sans-serif;
+  z-index: 1;
+  text-transform: capitalize;
+}
+
+.newsplashpage .part5 .subheading4 p {
+  position: absolute;
+  right: 5rem;
+  top: 310%;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Capriola", "Roboto", Arial, sans-serif;
+  z-index: 1;
+  text-align: right;
+}
+
+.newsplashpage .part5 .headingBtn4 button {
+  text-transform: capitalize;
+  text-decoration: none;
+  border: none;
+  font-size: 1.2rem;
+  padding: 12px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: #b1c01f;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 330%;
+  right: 5rem;
+}
+
+.newsplashpage .part5 .headingBtn4 button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #b1c01f;
+}
+/*# sourceMappingURL=style.css.map */
